@@ -1,0 +1,90 @@
+body{
+    margin: 5px;
+    padding: 0;
+    display: grid;
+}
+header{
+    display: grid;
+    overflow: hidden;
+    grid-template-columns: auto auto;
+    gap: 5px;
+}
+header h2{
+    background-color: rgb(246, 184, 68);
+    margin: 0;
+    padding-top: 20px;
+    padding: 0;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    overflow: hidden;
+    gap: 5px;
+}
+nav li{
+    list-style: none;
+    padding: 40px 2px;
+    background-color: pink;
+    margin: 0;  
+}
+main{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+}
+.content{
+    display: grid;
+    gap: 5px;
+}
+.posttitle{
+    background-color: skyblue;
+    padding: 30px 600px;
+    margin: 0;
+    margin-top: 5px;
+}
+.meta{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+}
+.postmeta{
+    background-color: rgb(75, 239, 75);
+    margin: 0;
+    padding: 0;
+    padding-bottom: 600px;
+}
+.main{
+    display: grid;
+    gap: 5px;
+}
+.maincontent{
+    background-color: rgb(194, 192, 192);
+    margin: 0;
+}
+img{
+    background-color: rgb(244, 244, 38);
+}
+.bar{
+    display: grid;
+    gap: 5px;
+    margin-top: 5px;
+}
+.sidebar{
+    background-color: orange;
+    margin: 0;
+}
+.ads{
+    background-color: green;
+    margin: 0;
+}
+.other{
+    background-color: rgb(237, 53, 237);
+    margin: 0;
+}
+footer h2{
+    background-color: rgb(106, 103, 103);
+    margin-top: 5px;
+    padding: 35px 0px;
+}
